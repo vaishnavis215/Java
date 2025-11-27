@@ -1,9 +1,12 @@
+
+// To access private method we need to call it in their class's another non-private method
+
 interface MyInterface
 {
  default void show()
  {
 	System.out.println("Use to Show massage..");
-	display();// To access private method we need to call it in their class's another non-private method
+	display();
  }
 private void display()
  {

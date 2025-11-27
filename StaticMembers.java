@@ -1,7 +1,11 @@
 class Example
 {
-	int x;
 	private static int y;
+	static void showInfo()
+	{
+		y=50;
+	}
+	int x;
 	void show()
 	{
 		y=22;
@@ -10,9 +14,17 @@ class Example
 	{
 		System.out.println(y);
 	}
-	void showInfo()
-	{
-		y=50;
+	public static int getY() {
+		return y;
+	}
+	public static void setY(int y) {
+		Example.y = y;
+	}
+	public int getX() {
+		return x;
+	}
+	public void setX(int x) {
+		this.x = x;
 	}
 }
 class StaticMemebrs
@@ -23,7 +35,10 @@ class StaticMemebrs
 		Example e2=new Example();
 		e1.show();
 		e1.info();
-		e1.showInfo();
+		e2.show();
+		Example.showInfo();
 		
 	}
+
+	
 }

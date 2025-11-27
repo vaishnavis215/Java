@@ -12,6 +12,7 @@ Abstraction: Showing functionality and hiding details or complex information
 	{
 		System.out.println("hello");  //non-abstract method
 	}
+-to access the abstract method we need to override that method in child class
 */
 abstract class Demo
 {

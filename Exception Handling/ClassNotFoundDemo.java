@@ -1,5 +1,4 @@
 
-import java.io.FileReader;
 
 class ClassNotFoundDemo {
 
@@ -7,7 +6,7 @@ class ClassNotFoundDemo {
         try {
 
             Class.forName("com.sam");
-        } catch (Exception e) {
+        } catch (ClassNotFoundException e) {
             System.out.println(e);
         }
     }

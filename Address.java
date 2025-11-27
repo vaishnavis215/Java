@@ -1,10 +1,11 @@
+
 class Address {
     String city;
     int pincode;
     String state;
 
     void DisplayAddress(){
-        System.out.println("Good Morning  "+city+  "...\nHere is my  pincode "+pincode+  "\nAnd \n" +state+  "is my state");
+        System.out.println("Good Morning  "+city+  "...\nHere is my  pincode "+pincode+  "\nAnd \n" +state+  " is my state");
     }
 
     public static void main(String args[]) {
