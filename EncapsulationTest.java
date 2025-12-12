@@ -1,5 +1,6 @@
 import package1.EncapsulationDemo;
 
+
 class EncapsulationTest{
 	public static void main(String args[])
 	{
@@ -8,6 +9,6 @@ class EncapsulationTest{
 	s1.setName("vaishnavi");
 	s1.setCity("Pune");
 
-	System.out.println("Student Id:"+s1.getId+"\nStudent Name:"+s1.getName+"\nStudent City:"+s1.getCity);
+	System.out.println("Student Id:"+s1.getId+"\nStudent Name:"+s1.getName+"\nStudent City:"+s1.getCity());
 	}
 }

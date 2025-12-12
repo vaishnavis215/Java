@@ -12,6 +12,7 @@ class Parent
 class SuperMethod extends Parent
 {
 	String massage="Everyone";
+        @Override
 void eat()
 {
 	super.eat();
@@ -28,4 +29,12 @@ public static void main(String args[])
 	d1.show();
 	d1.eat();
 }
+
+    public String getMassage() {
+        return massage;
+    }
+
+    public void setMassage(String massage) {
+        this.massage = massage;
+    }
 }

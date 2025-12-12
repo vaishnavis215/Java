@@ -11,7 +11,7 @@ class Example
 	{
 		System.out.println(x);
 	}
-	static void showInfo()
+	void showInfo()
 	{
 		y=50;
 	}

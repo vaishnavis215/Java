@@ -4,6 +4,8 @@ class EncapsulationDemo{
 	private int id;
 	private String name;
 	private String city;
+    public String getId;
+    public String getName;
 
 	//public getters and setters method allow us to read and write to secure way
 	public void setId(int id){
